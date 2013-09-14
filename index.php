@@ -5,14 +5,16 @@ include 'cart_fns.php';
 DBHelper::createServerConnection();
 DBHelper::connectToDB();
 session_start();
-if (!isset($_SESSION['cart'])) {
+if (!isset($_SESSION['cart'])) 
+{
     $_SESSION['cart'] = Array();
     $_SESSION['total_items'] = 0;
     $_SESSION['total_price'] = '0.00';
 }
 $view = empty($_GET['view']) ? 'index' : $_GET['view'];
 
-switch ($view) {
+switch ($view) 
+{
     case ('index'):
         $products = DBHelper::getAllProducts();
         break;
