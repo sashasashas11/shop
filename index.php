@@ -47,9 +47,12 @@ switch ($view) {
             $search = htmlspecialchars($search);
             $search = stripslashes($search);
 
-            if (strlen($search) >= 4) {
+            if (strlen($search) >= 4) 
+            {
                 $product_s = DBHelper::getSearch($search);
-            } else {
+            } 
+            else 
+            {
                 $error = "Длина текста должна быть не менее четырёх символов";
             }
         }
