@@ -1,0 +1,20 @@
+#wrap
+{
+width: 100%;
+height: 100%;
+}
+.loginbox1
+{
+width: 300px;
+padding: 4px;
+border: 1px solid #777;
+background-color: #777;
+color: white;
+font-weight: bold;
+}
+.loginbox2
+{
+width: 300px;
+padding: 4px;
+border: 1px solid #777;
+color: #777;
