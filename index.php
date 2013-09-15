@@ -11,6 +11,7 @@ if (!isset($_SESSION['cart']))
     $_SESSION['total_items'] = 0;
     $_SESSION['total_price'] = '0.00';
 }
+
 $view = empty($_GET['view']) ? 'index' : $_GET['view'];
 
 switch ($view) 
