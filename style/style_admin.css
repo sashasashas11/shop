@@ -5,7 +5,9 @@ height: 100%;
 }
 .loginbox1
 {
+
 width: 300px;
+
 padding: 4px;
 border: 1px solid #777;
 background-color: #777;
@@ -14,7 +16,8 @@ font-weight: bold;
 }
 .loginbox2
 {
-width: 300px;
+
+width: 600px;
 padding: 4px;
 border: 1px solid #777;
 color: #777;
